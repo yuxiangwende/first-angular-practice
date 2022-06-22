@@ -1,8 +1,19 @@
+app-header {
+  position: fixed;
+  overflow: hidden;
+}
+
 app-sidebar {
   float: left;
+  clear:left;
   margin-right: 100px;
 }
 
 app-content {
   float: left;
+}
+
+app-rsidebar {
+  float: right;
+  margin-left: 100px;
 }
