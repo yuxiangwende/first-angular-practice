@@ -1,0 +1,27 @@
+section.headtab {
+    width: 1080px;
+}
+
+fluent-tab-panel {
+    display: none;
+}
+
+fluent-tab#home_tab:focus ~#home_panel {
+    display: block;
+}
+
+fluent-tab#timeline_tab:focus ~#timeline_panel {
+    display: block;
+}
+
+fluent-tab#about_tab:focus ~#about_panel {
+    display: block;
+}
+
+fluent-tab-panel ul li {
+    list-style-type: none;
+}
+
+fluent-switch#header_switch {
+    float: right;
+}
