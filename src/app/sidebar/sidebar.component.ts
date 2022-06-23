@@ -21,6 +21,20 @@ export class SidebarComponent implements OnInit {
     this.iconReg.addSvg("menu-bar" , MENU_ICON);
   }
 
+  categoryItems: string[] = [
+    "Living",
+    "Coding",
+    "Thinking",
+    "Learning",
+  ]
+
+  tagContents: string[] = [
+    "Thinking",
+    "Living",
+    "Learning",
+    "Coding",
+  ]
+
   ngOnInit(): void {
   }
 

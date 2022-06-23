@@ -10,6 +10,8 @@ import {
   fluentTabs,
   fluentAnchor,
   fluentSwitch,
+  fluentTreeView,
+  fluentTreeItem,
   provideFluentDesignSystem } from '@fluentui/web-components'
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
@@ -32,4 +34,6 @@ provideFluentDesignSystem()
     fluentTabPanel(),
     fluentAnchor(),
     fluentSwitch(),
+    fluentTreeItem(),
+    fluentTreeView(),
   );
